@@ -30,7 +30,7 @@ interface FormValues {
 }
 
 const ContactPage = () => {
-  const [create, { loading, error }] = useMutation<
+  const [create, { loading /*, error*/ }] = useMutation<
     CreateContactMutation,
     CreateContactMutationVariables
   >(CREATE_CONTACT, {

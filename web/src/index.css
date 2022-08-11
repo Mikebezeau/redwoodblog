@@ -17,6 +17,11 @@ h1 > a {
 button, input, label, textarea {
   display: block;
   outline: none;
+  margin-right:6px;
+}
+button > a {
+  text-decoration: none;
+  color:black;
 }
 label {
   margin-top: 1rem;
