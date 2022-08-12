@@ -8,7 +8,9 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "2.2.0"
+    "@redwoodjs/core": "2.2.0",
+    "node-ssh": "^13.0.0",
+    "pm2": "^5.2.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
